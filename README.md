@@ -1,4 +1,4 @@
-# 🍃 Prana-Edge: Autonomous Multi-Agent Healthcare Ecosystem
+# 🍃 AeroHealth: Autonomous Multi-Agent Healthcare Ecosystem
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
