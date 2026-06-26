@@ -1,0 +1,6 @@
+symptom_keywords,department,priority,clinical_guideline
+"chest pain, shortness of breath, heavy chest, heart palpitations",Cardiology,3,"Immediate evaluation required for potential myocardial infarction or acute coronary syndrome."
+"bone fracture, sprain, joint pain, swollen ankle, back pain",Orthopedics,2,"Physical examination and X-ray imaging required. Immobilize the affected area."
+"fever, cough, runny nose, sore throat, mild headache",General Medicine,1,"Likely viral infection. Recommend rest, hydration, and over-the-counter antipyretics."
+"severe stomach ache, nausea, vomiting, appendicitis",Gastroenterology,3,"High risk for acute abdomen. Requires immediate ultrasound and surgical consult."
+"blurry vision, eye pain, redness, loss of sight",Ophthalmology,2,"Detailed ocular examination required to rule out acute glaucoma or retinal issues."
