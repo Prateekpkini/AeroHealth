@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 class PatientState:
     session_id: str
     current_agent: str = "receptionist"
+    agent_response: str = ""  # <-- THIS MUST BE HERE
     
     patient_name: Optional[str] = None
     raw_symptoms: Optional[str] = None
