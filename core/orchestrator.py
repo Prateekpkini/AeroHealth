@@ -6,6 +6,7 @@ class AeroHealthOrchestrator:
         self.agent_registry = {
             "receptionist": "core.agents.receptionist.process",
             "triage": "core.agents.triage.process",
+            "supervisor": "core.agents.supervisor.process",
             "scheduler": "core.agents.scheduler.process"
         }
 
@@ -19,5 +20,6 @@ class AeroHealthOrchestrator:
         module = importlib.import_module(module_path)
         agent_function = getattr(module, func_name)
 
+        # Print the routing trail for debugging
         print(f"\n[Orchestrator] Routing to: {current_agent.upper()}")
         return agent_function(state, user_input)

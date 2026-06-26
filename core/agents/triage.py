@@ -18,7 +18,7 @@ def process(state: PatientState, user_input: str) -> PatientState:
         "priority_score": priority,
         "recommended_department": dept,
         "risk_assessment": guideline,
-        "current_agent": "scheduler"
+        "current_agent": "supervisor"
     })
     
     print(f"[Triage Output] Match Found! Priority {priority} -> {dept}.")
